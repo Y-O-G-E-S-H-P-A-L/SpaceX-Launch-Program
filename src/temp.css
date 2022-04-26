@@ -1,0 +1,76 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: #aaa;
+}
+header {
+  height: 50px;
+  width: 100%;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 10px;
+  z-index: 11;
+  position: fixed;
+  top: 0;
+}
+.sidebar {
+  position: relative;
+  top: 50px;
+  text-align: center;
+  width: 20%;
+  background-color: #ccc;
+  padding: 10px;
+}
+.sidebar .heading {
+  width: 100%;
+  font-size: 1.3rem;
+  font-weight: 600;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.years,
+.launching,
+.landing {
+  width: 100%;
+  text-align: center;
+}
+.years .title,
+.launching .title,
+.landing .title {
+  width: 80%;
+  font-size: 1rem;
+  font-weight: 500;
+  padding-bottom: 5px;
+  margin: 3% 3% 3% 10%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.7);
+}
+.years div,
+.launching div,
+.landing div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.years div button,
+.launching div button,
+.landing div button {
+  padding: 10px 15px;
+  margin: 10px;
+  outline: none;
+  border: none;
+  border-radius: 6px;
+  color: rgb(225, 225, 225);
+  background-color: rgba(28, 145, 28, 0.829);
+}
